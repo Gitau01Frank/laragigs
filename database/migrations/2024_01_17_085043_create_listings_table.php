@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('tags');
-            $table->string('comapany');
+            $table->string('company');
             $table->string('location');
             $table->string('email');
             $table->string('website');
